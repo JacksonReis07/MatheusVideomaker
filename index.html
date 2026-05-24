@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Videomaker | Produção de Vídeo & Conteúdo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Matheus Videomaker" class="logo-img">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#sobre">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container hero-content">
+        <h1>Contando histórias que <span class="gradient-text">encantam</span>.</h1>
+        <p>Produção de vídeo profissional para marcas, eventos e criadores de conteúdo. Da concepção à entrega final, cada frame é pensado para emocionar e converter.</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">Ver portfólio</a>
+          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Trabalhos em <span class="gradient-text">destaque</span></h2>
+        <p class="section-subtitle">Cada projeto é uma história única. Conheça alguns dos meus trabalhos recentes.</p>
+        <div id="video-grid" class="video-grid">
+          <!-- Os vídeos serão injetados automaticamente via config.js -->
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section bg-dark">
+      <div class="container split-layout">
+        <div class="split-text">
+          <h2 class="section-title">O que eu <span class="gradient-text">faço</span></h2>
+          <p>Mais do que apertar REC, eu crio narrativas visuais que conectam marcas e pessoas. Com olhar cinematográfico e técnica apurada, transformo ideias em vídeos que marcam.</p>
+          <ul class="services-list" id="services-list">
+            <!-- Preenchido via config.js -->
+          </ul>
+        </div>
+        <div class="split-visual">
+          <div class="stat-card">
+            <h3>150+</h3>
+            <p>Vídeos produzidos</p>
+          </div>
+          <div class="stat-card">
+            <h3>5+</h3>
+            <p>Anos de experiência</p>
+          </div>
+          <div class="stat-card">
+            <h3>100%</h3>
+            <p>Clientes satisfeitos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container split-layout">
+        <div class="contact-info">
+          <h2 class="section-title">Vamos criar <span class="gradient-text">juntos</span>?</h2>
+          <p>Tem um projeto em mente? Entre em contato e vamos transformar sua ideia em realidade. Atendo em todo o Brasil.</p>
+          <ul class="contact-links">
+            <li>📧 contato@matheusvideomaker.com</li>
+            <li>📱 (11) 99999-9999</li>
+            <li>📍 São Paulo, SP</li>
+            <li><a href="#">Instagram</a> • <a href="#">YouTube</a> • <a href="#">Vimeo</a></li>
+          </ul>
+        </div>
+        <form id="quote-form" class="contact-form" action="https://formsubmit.co/SEU_EMAIL@EXEMPLO.COM" method="POST">
+          <input type="text" name="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" placeholder="Seu e-mail" required>
+          <input type="tel" name="whatsapp" placeholder="WhatsApp (com DDD)">
+          <select name="tipo_projeto" required>
+            <option value="" disabled selected>Tipo de projeto</option>
+            <option value="institucional">Vídeo Institucional</option>
+            <option value="evento">Cobertura de Evento</option>
+            <option value="produto">Vídeo de Produto</option>
+            <option value="conteudo">Conteúdo para Redes Sociais</option>
+            <option value="casamento">Casamento</option>
+            <option value="outro">Outro</option>
+          </select>
+          <textarea name="mensagem" placeholder="Conte sobre seu projeto: data, local, duração estimada e ideias..." rows="4" required></textarea>
+          <button type="submit" class="btn btn-primary">Solicitar orçamento</button>
+          <p class="form-note">🔒 Seus dados estão seguros. Respondo em até 24h.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Matheus Videomaker. Todos os direitos reservados.</p>
+      <p>Feito com ❤️ e muita criatividade.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
