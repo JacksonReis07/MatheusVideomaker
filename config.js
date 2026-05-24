@@ -4,45 +4,24 @@
 const portfolioVideos = [
   {
     id: "projeto-1",
-    title: "Casamento Ana & Pedro",
-    description: "Cobertura completa do casamento com estilo cinematográfico. Captação em 4K, drone e edição com color grading personalizado.",
-    videoSrc: "videos/casamento-ana-pedro.mp4",
+    title: "Casamento Cinematográfico",
+    description: "Cobertura completa de casamento com estilo cinematográfico. Captação em 4K, drone e edição com color grading personalizado.",
+    videoSrc: "videos/video1.mp4",
     poster: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "projeto-2",
-    title: "Institucional TechCorp",
-    description: "Vídeo institucional para empresa de tecnologia. Roteiro, captação em estúdio e locações, motion graphics e trilha sonora original.",
-    videoSrc: "videos/institucional-techcorp.mp4",
+    title: "Vídeo Institucional",
+    description: "Produção institucional para empresas. Roteiro, captação em estúdio e locações, motion graphics e trilha sonora original.",
+    videoSrc: "videos/video2.mp4",
     poster: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "projeto-3",
-    title: "Lançamento Produto Beauty",
-    description: "Vídeo de produto para marca de cosméticos. Fotografia de produto, stop motion e animações para redes sociais.",
-    videoSrc: "videos/produto-beauty.mp4",
-    poster: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "projeto-4",
-    title: "Evento Corporativo 2024",
-    description: "Cobertura de evento empresarial com 500+ participantes. Multicâmera, entrevistas, highlights e vídeo completo de 30min.",
-    videoSrc: "videos/evento-corporativo.mp4",
-    poster: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "projeto-5",
-    title: "Conteúdo Instagram - Restaurante",
-    description: "Série de vídeos curtos para Instagram e TikTok. Reels semanais, stories e conteúdo para campanhas patrocinadas.",
-    videoSrc: "videos/restaurante-reels.mp4",
-    poster: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "projeto-6",
-    title: "Documentário Arte Urbana",
-    description: "Documentário de 15min sobre artistas de rua da cidade. Pesquisa, entrevistas, captação e pós-produção completa.",
-    videoSrc: "videos/documentario-arte.mp4",
-    poster: "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?auto=format&fit=crop&w=800&q=80"
+    title: "Conteúdo para Redes Sociais",
+    description: "Vídeos dinâmicos para Instagram, TikTok e YouTube. Reels, stories e conteúdo engajador para suas redes sociais.",
+    videoSrc: "videos/video3.mp4",
+    poster: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
